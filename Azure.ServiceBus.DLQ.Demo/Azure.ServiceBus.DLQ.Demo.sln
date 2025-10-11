@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.ServiceBus.DLQ.Queue.Demo", "Azure.ServiceBus.DLQ.Queue.Demo\Azure.ServiceBus.DLQ.Queue.Demo.csproj", "{675C20B9-BC09-4050-A5AA-025FEAFAE508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.ServiceBus.DLQ.Topic.Demo", "Azure.ServiceBus.DLQ.Topic.Demo\Azure.ServiceBus.DLQ.Topic.Demo.csproj", "{141043E4-B198-4DA4-934B-C746A52D51E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{675C20B9-BC09-4050-A5AA-025FEAFAE508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675C20B9-BC09-4050-A5AA-025FEAFAE508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675C20B9-BC09-4050-A5AA-025FEAFAE508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675C20B9-BC09-4050-A5AA-025FEAFAE508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141043E4-B198-4DA4-934B-C746A52D51E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141043E4-B198-4DA4-934B-C746A52D51E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141043E4-B198-4DA4-934B-C746A52D51E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141043E4-B198-4DA4-934B-C746A52D51E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

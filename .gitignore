@@ -1,0 +1,121 @@
+## Ignore Visual Studio and Rider temporary files, build results, and user settings
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.log
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+.history/
+.vs/
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.mdb
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuget.props
+*.nuget.targets
+*.lock.json
+packages/
+# Uncomment if you use package restore instead of commit:
+# !packages/build/
+project.lock.json
+
+# ASP.NET (if you add web APIs later)
+project.fragment.lock.json
+artifacts/
+
+# Generated files
+Generated_Code/
+*.generated.cs
+*_g.cs
+*_i.cs
+
+# Backup and report files
+*.bak
+*.backup
+*.tmp
+*.temp
+*.old
+*.orig
+*.err
+
+# Test results
+TestResult*/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Configuration files
+appsettings.*.local.json
+secrets.json
+.env
+.env.*
+
+# Publish output
+publish/
+dist/
+out/
+
+# Resharper and Rider caches
+_ReSharper*/
+*.DotSettings.user
+.idea/
+.idea_modules/
+
+# Azure
+*.azurePubxml
+*.PublishSettings
+*.publishproj
+ServiceDependencies/
+ServiceReferences/
+
+# Others
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.key
+*.snk
+
+# Local tools
+.toolstargets/
+.localhistory/
+node_modules/
+
+# macOS / Linux
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+log/
+
+# Ignore temporary scratch files
+scratches/
+
+#rider
+.idea/
