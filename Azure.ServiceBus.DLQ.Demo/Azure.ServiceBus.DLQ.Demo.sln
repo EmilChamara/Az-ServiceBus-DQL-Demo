@@ -4,6 +4,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.ServiceBus.DLQ.Queue.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.ServiceBus.DLQ.Topic.Demo", "Azure.ServiceBus.DLQ.Topic.Demo\Azure.ServiceBus.DLQ.Topic.Demo.csproj", "{141043E4-B198-4DA4-934B-C746A52D51E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure.Servicebus.DLQ.Handle.ListenerExample ", "Azure.Servicebus.DLQ.Handle.ListenerExample ", "{AE24EBB9-E62F-4ECD-91D3-A05612E946C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.ServiceBus.ProducerApp", "Azure.ServiceBus.ProducerApp\Azure.ServiceBus.ProducerApp.csproj", "{16E2BD36-2BF9-43B2-B15C-FA611BD7B1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.ServiceBus.ConsumerApp", "Azure.ServiceBus.ConsumerApp\Azure.ServiceBus.ConsumerApp.csproj", "{7D17771C-9952-42CF-963C-13183E4380D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.serviceBus.DLQListenerApp", "Azure.serviceBus.DLQListenerApp\Azure.serviceBus.DLQListenerApp.csproj", "{C24FBDFE-3A45-420C-8CAA-04BE66B7457C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +26,22 @@ Global
 		{141043E4-B198-4DA4-934B-C746A52D51E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{141043E4-B198-4DA4-934B-C746A52D51E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{141043E4-B198-4DA4-934B-C746A52D51E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E2BD36-2BF9-43B2-B15C-FA611BD7B1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E2BD36-2BF9-43B2-B15C-FA611BD7B1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E2BD36-2BF9-43B2-B15C-FA611BD7B1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E2BD36-2BF9-43B2-B15C-FA611BD7B1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D17771C-9952-42CF-963C-13183E4380D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D17771C-9952-42CF-963C-13183E4380D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D17771C-9952-42CF-963C-13183E4380D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D17771C-9952-42CF-963C-13183E4380D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24FBDFE-3A45-420C-8CAA-04BE66B7457C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24FBDFE-3A45-420C-8CAA-04BE66B7457C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24FBDFE-3A45-420C-8CAA-04BE66B7457C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24FBDFE-3A45-420C-8CAA-04BE66B7457C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16E2BD36-2BF9-43B2-B15C-FA611BD7B1FB} = {AE24EBB9-E62F-4ECD-91D3-A05612E946C2}
+		{7D17771C-9952-42CF-963C-13183E4380D4} = {AE24EBB9-E62F-4ECD-91D3-A05612E946C2}
+		{C24FBDFE-3A45-420C-8CAA-04BE66B7457C} = {AE24EBB9-E62F-4ECD-91D3-A05612E946C2}
 	EndGlobalSection
 EndGlobal
